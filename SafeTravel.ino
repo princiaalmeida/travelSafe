@@ -6,11 +6,11 @@
 #include "addons/RTDBHelper.h"
 
 // -------------------- WiFi & Firebase --------------------
-#define WIFI_SSID "vivoY02t"
-#define WIFI_PASSWORD "sia@1234"
+#define WIFI_SSID " "
+#define WIFI_PASSWORD " "
 
-#define DATABASE_URL "https://yenapoya-19435-default-rtdb.asia-southeast1.firebasedatabase.app/"
-#define DATABASE_SECRET "5xoDbTguptYcGp0w95ROzNxyf5qDhURqqY4gMGIz"
+#define DATABASE_URL " "
+#define DATABASE_SECRET " "
 
 // -------------------- Objects --------------------
 FirebaseData fbdo;
@@ -109,10 +109,6 @@ float distanceMeters(float lat1, float lon1, float lat2, float lon2) {
 
 // -------------------- Main Loop --------------------
 void loop() {
-  // ---- Simulated heart rate & SpO2 ----
-  float heartRate = random(65, 90);      
-  float spo2 = random(95, 99);            
-
   // Blink LED like heartbeat
   digitalWrite(LED_PIN, HIGH);
   delay(60);
